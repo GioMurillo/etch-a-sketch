@@ -3,12 +3,6 @@ h1 {
 }
 
 .container {
-  display: flex;
-  height: 100vh;
-}
-.square {
-  width: 100%;
-  padding-bottom: 100%;
-  position: relative;
-  border: 2px solid black;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
