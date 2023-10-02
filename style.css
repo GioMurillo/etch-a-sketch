@@ -2,7 +2,20 @@ h1 {
   text-align: center;
 }
 
-.container {
+.gridContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  width: 600px;
+  height: 600px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.square {
+
+}
+
+.shaded {
+  background-color: black;
 }
