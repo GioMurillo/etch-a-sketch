@@ -26,3 +26,13 @@ function createGrid(num) {
     }
   }
 }
+
+//create an array of the squares in the document
+const squares = Array.from(document.querySelectorAll('.square'));
+//add an event listener for a mouseover on the squares
+squares.forEach(square => square.addEventListener("mouseover", shadeSquare));
+
+//function to change the class of the squares
+function shadeSquare(e) {
+  e.target.classList.add('shaded');
+}
