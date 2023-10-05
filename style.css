@@ -1,12 +1,11 @@
-h1 {
+body {
   text-align: center;
-}
-
-.gridContainer {
-  display: flex;
   align-items: center;
   justify-content: center;
   justify-items: center;
+}
+
+.gridContainer {
   width: 50vh;
   height: 50vh;
   display: grid;
